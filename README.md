@@ -1,6 +1,11 @@
 # The Learning React adventure continues
 Following allong with Udemy course: "Modern React with Redux"
 This projects aims to introduce collecting user input, making API calls, etc.
+This project:
+- Uses components for gathering user input, displaying results from API request
+- Uses Axios to make GET request to an API
+- Calls the Unsplash API to get images based on search term
+- Uses Grid CSS to style 10 images returned from the API
 
 ## Getting Started with Create React App
 
