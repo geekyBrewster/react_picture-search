@@ -1,11 +1,13 @@
+import './ImageList.css';
 import React from 'react';
+import ImageCard from './ImageCard';
 
 const ImageList = (props) => {
-    const images = props.images.map(({id, urls, alt_description}) => {
+    const images = props.images.map((image) => {
         //key gets added to root element being returned, which would be a div if this was wrapped in one
-        return <img key={id} src={urls.small} alt={alt_description}/>
+        return <ImageCard key={image.id} image={image} />
     });
-    return <div>{images}</div>
+    return <div className="image-list">{images}</div>
 };
 
 export default ImageList;
