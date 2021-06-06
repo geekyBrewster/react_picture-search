@@ -18,3 +18,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+## API Documentation
+The Unsplash API was used in this project. To get credentials or view documentation, head to [Unsplash Image API](https://unsplash.com/developers)
